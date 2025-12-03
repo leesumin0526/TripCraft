@@ -1,13 +1,13 @@
-package com.dev.tripcraft;
+package com.dev.cotemate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TripcraftApplication {
+public class CoteMateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TripcraftApplication.class, args);
+		SpringApplication.run(CoteMateApplication.class, args);
 	}
 
 }

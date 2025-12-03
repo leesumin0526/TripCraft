@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.dev'
 version = '0.0.1-SNAPSHOT'
-description = 'TripCraft - Your AI Trip Planner'
+description = 'COTE Mate - Your AI Coding Test Mate'
 
 java {
 	toolchain {
@@ -25,10 +25,14 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0'
+
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
-	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

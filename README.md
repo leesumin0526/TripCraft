@@ -8,7 +8,6 @@ AI Coding Test Trainer
   * **Frontend**: React  
   * **Backend**: Spring Boot  
 
----
 
 # Commit Convention
 
